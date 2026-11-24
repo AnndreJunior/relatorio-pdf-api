@@ -1,0 +1,17 @@
+{
+  "name": "relatorio-pdf-api",
+  "description": "Estudo de como gerar um relatório pdf em um sistema.",
+  "main": "dist/server.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnndreJunior/relatorio-pdf-api.git"
+  },
+  "keywords": [],
+  "author": "AnndreJunior",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/AnndreJunior/relatorio-pdf-api/issues"
+  },
+  "homepage": "https://github.com/AnndreJunior/relatorio-pdf-api#readme"
+}
