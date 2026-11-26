@@ -43,6 +43,8 @@ export async function buildApp(app: FastifyInstance) {
     let message = 'Internal server error'
     if (err.statusCode && err.statusCode < 500) {
       message = err.message
+    } else {
+      request.log.error(err)
     }
 
     return { message }
