@@ -6,15 +6,20 @@ declare module 'fastify' {
     config: {
       PORT: number
       SERVER_URL: string
+      DATABASE_URL: string
     }
   }
 }
 
 const schema = {
   type: 'object',
-  required: ['SERVER_URL'],
+  required: ['SERVER_URL', 'DATABASE_URL'],
   properties: {
     SERVER_URL: {
+      type: 'string',
+      format: 'uri',
+    },
+    DATABASE_URL: {
       type: 'string',
       format: 'uri',
     },
